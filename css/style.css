@@ -148,11 +148,15 @@ text-transform: uppercase;
  }
  .content-block{
      display: grid;
-     grid-template-columns: 5fr 1fr;
+     grid-template-columns: 5fr 2fr;
+     margin-bottom: 80px;
  }
  .content-block-text{
      padding: 130px 120px 100px 150px;
  }
+ h3{
+     color: #101010;
+    }
  h2{
     font-family: 'Roboto';
     font-weight: 500;
@@ -180,7 +184,7 @@ text-transform: uppercase;
  }
  .opportunities-block{
     padding-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
  }
  .opportunities-block> h2{
     text-align: center;
@@ -228,4 +232,55 @@ text-transform: uppercase;
 }
 .technology> h2{
     text-align: center;
+}
+.technology-types{
+    padding: 0px 150px 0px 150px;
+    display: flex;
+    justify-content:space-between;
+}
+.type-of-technology{
+    text-align: center;
+    width: 240px;
+    height: 215px;
+    padding: 0px 20px;
+}
+
+.bigNumber{
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    color: rgba(16, 16, 16, 0.08);
+}
+.block-with-technology{
+    margin-top: -60px;
+}
+.block-with-technology> h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+.block-with-technology> p{
+    font-size: 12px;
+    line-height: 14px;
+}
+.content-pink{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin-bottom: 80px;
+    background-color: #ED4C5C;
+    color: #FFFFFF;
+}
+
+.icon-google{
+    margin-right: 25px;
+}
+.text-in-pink-block{
+    line-height: 140%; 
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.content-pink-text{
+    padding: 130px 120px 100px 150px;
 }
